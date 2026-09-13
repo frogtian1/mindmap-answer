@@ -1,0 +1,21 @@
+{
+  "question": "如何把一个想法做到上线？",
+  "conclusion": "先收窄问题，再用主路径实现和可回滚发布完成闭环。",
+  "reading_path": ["先看问题与方案", "重点展开实现", "按验证和发布收口", "最后复盘"],
+  "root": "想法\n做到上线",
+  "branches": [
+    {"id":"b1","label":"① 问题","children":[{"label":"用户痛点"},{"label":"成功指标"},{"label":"范围边界"}]},
+    {"id":"b2","label":"② 方案","children":[{"label":"核心假设"},{"label":"最小闭环"},{"label":"风险清单"}]},
+    {"id":"b3","label":"③ 实现","children":[
+      {"label":"拆任务","children":[{"label":"接口","children":[{"label":"入参","children":[{"label":"鉴权字段"}]},{"label":"出参"}]},{"label":"数据表"},{"label":"边界条件"}]},
+      {"label":"写代码","children":[{"label":"先主路径","children":[{"label":"可跑通","children":[{"label":"再补枝节"}]}]},{"label":"补测试"}]},
+      {"label":"联调","children":[{"label":"对一下契约"},{"label":"记下差异"}]}
+    ]},
+    {"id":"b4","label":"④ 验证","children":[{"label":"核心用例"},{"label":"异常路径"},{"label":"指标对照"}]},
+    {"id":"b5","label":"⑤ 发布","children":[
+      {"label":"灰度","children":[{"label":"1%流量","children":[{"label":"看错误率","children":[{"label":"回滚开关"}]}]},{"label":"全量"}]},
+      {"label":"文档"},{"label":"值班"}
+    ]},
+    {"id":"b6","label":"⑥ 复盘","children":[{"label":"目标差距"},{"label":"用户反馈"},{"label":"下一迭代"}]}
+  ]
+}
