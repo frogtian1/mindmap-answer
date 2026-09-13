@@ -1,0 +1,15 @@
+{
+  "question": "Cursor 和 Codex 应该怎么选？",
+  "conclusion": "日常编辑偏 Cursor，长任务闭环偏 Codex，也可并用。",
+  "reading_path": ["先确认使用场景", "再比较双方强项", "最后按约束选择"],
+  "root": "Cursor\n还是 Codex",
+  "branches": [
+    {"id":"b1","label":"① 先问场景","children":[{"label":"改现有仓库"},{"label":"从零写功能"},{"label":"只想查逻辑"}]},
+    {"id":"b2","label":"② 交互方式","children":[{"label":"编辑器内改"},{"label":"终端里托管"},{"label":"对话里提问"}]},
+    {"id":"b3","label":"③ Cursor强项","children":[{"label":"多文件连改"},{"label":"改完立刻看"},{"label":"补全跟手"}]},
+    {"id":"b4","label":"④ Codex强项","children":[{"label":"自己跑命令"},{"label":"长任务闭环"},{"label":"改动可验证"}]},
+    {"id":"b5","label":"⑤ 约束条件","children":[{"label":"订阅预算"},{"label":"仓库体量"},{"label":"能否联网"}]},
+    {"id":"b6","label":"⑥ 怎么选","children":[{"label":"日常改代码"},{"label":"批量长任务"},{"label":"两套可并存"}]},
+    {"id":"b7","label":"⑦ 常见误区","children":[{"label":"只比较模型"},{"label":"一次做太大"},{"label":"不设验收"}]}
+  ]
+}
