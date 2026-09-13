@@ -1,0 +1,15 @@
+{
+  "question": "如何用三个月入门 Python？",
+  "conclusion": "先锁一个两周能做完的小项目，用项目倒逼语法。",
+  "reading_path": ["先看目标锁定", "沿项目主线推进", "按验收标准收口"],
+  "root": "三月入门\nPython",
+  "branches": [
+    {"id":"b1","label":"① 目标锁定","children":[{"label":"只做一项目"},{"label":"两周可完成"},{"label":"能给别人用"}]},
+    {"id":"b2","label":"② 环境工具","children":[{"label":"装官方 Python"},{"label":"VS Code"},{"label":"venv 隔离"}]},
+    {"id":"b3","label":"③ 最小语法","children":[{"label":"变量与类型"},{"label":"条件循环"},{"label":"函数与模块"},{"label":"读写文件"}]},
+    {"id":"b4","label":"④ 项目主线","children":[{"label":"第1月整理数据"},{"label":"第2月做成脚本"},{"label":"第3月加定时"}]},
+    {"id":"b5","label":"⑤ 练习节奏","children":[{"label":"每日45到90分"},{"label":"先写再查"},{"label":"周末只复盘"}]},
+    {"id":"b6","label":"⑥ 常见坑","children":[{"label":"课程囤积"},{"label":"环境翻车"},{"label":"项目过大"}]},
+    {"id":"b7","label":"⑦ 验收标准","children":[{"label":"能独立运行"},{"label":"有 README"},{"label":"能讲清逻辑"}]}
+  ]
+}
