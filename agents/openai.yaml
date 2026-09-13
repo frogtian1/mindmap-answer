@@ -1,0 +1,4 @@
+interface:
+  display_name: "导图回答"
+  short_description: "把自然语言问题整理并渲染为左右对开静态思维导图"
+  default_prompt: "Use $mindmap-answer to answer this question as a structured mind map."
